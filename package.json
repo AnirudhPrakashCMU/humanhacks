@@ -34,7 +34,7 @@
   "homepage": "https://vladmandic.github.io/human/demo/index.html",
   "license": "MIT",
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=18.0.0 <20"
   },
   "repository": {
     "type": "git",
@@ -73,6 +73,13 @@
     "tfjs",
     "tensorflow"
   ],
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "@vladmandic/pilogger": "^0.5.1",
+    "dotenv": "^16.3.1",
+    "node-webcam": "^0.8.2",
+    "openai": "^4.28.1"
+  },
   "devDependencies": {
     "@html-eslint/eslint-plugin": "^0.26.0",
     "@html-eslint/parser": "^0.26.0",
@@ -85,7 +92,6 @@
     "@tensorflow/tfjs-core": "^4.22.0",
     "@tensorflow/tfjs-data": "^4.22.0",
     "@tensorflow/tfjs-layers": "^4.22.0",
-    "@tensorflow/tfjs-node": "^4.22.0",
     "@tensorflow/tfjs-node-gpu": "^4.22.0",
     "@types/emscripten": "^1.40.0",
     "@types/node": "^22.13.1",
@@ -93,7 +99,6 @@
     "@typescript-eslint/eslint-plugin": "^8.8.1",
     "@typescript-eslint/parser": "^8.8.1",
     "@vladmandic/build": "^0.10.2",
-    "@vladmandic/pilogger": "^0.5.1",
     "@vladmandic/tfjs": "github:vladmandic/tfjs",
     "canvas": "^3.1.0",
     "esbuild": "^0.24.2",
