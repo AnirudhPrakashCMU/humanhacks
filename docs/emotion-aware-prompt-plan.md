@@ -79,8 +79,9 @@ async function refineAnswer(initialAnswer: string) {
 The following checklist summarises the concrete steps required to build this
 feature:
 
-1. **Install dependencies** – Node.js 18 LTS is required. Run
-   `npm install` to fetch the Human library,
+1. **Install dependencies** – Node.js 18 LTS is required. The setup script
+   attempts to switch via `nvm` if available. Run `npm install` to fetch the
+   Human library,
    OpenAI client, `node-webcam`, `@vladmandic/pilogger` and `@tensorflow/tfjs-node`.
    On macOS you may need to install Xcode Command Line Tools so that
    `@tensorflow/tfjs-node` can build: `xcode-select --install`.

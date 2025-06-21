@@ -4,8 +4,8 @@ This guide describes how to run the webcam demo that integrates the Human librar
 
 ## Prerequisites
 
-- **Node.js 18 LTS required** (prebuilt TensorFlow binaries target Node 18).
-  Use `nvm install 18 && nvm use 18` to switch if needed.
+- **Node.js 18 LTS required.** `make setup` will try to switch using `nvm` if
+  you have it installed. Otherwise run `nvm install 18 && nvm use 18` manually.
 - A working webcam with `fswebcam` (Linux) or `imagesnap` (macOS) installed
 - An OpenAI API key
 
